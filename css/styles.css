@@ -80,7 +80,7 @@ textarea {
 }
 
 .container {
-  padding: 0 15px;
+  padding: 24px 15px;
   min-width: 305px;
   margin: 0 auto;
 }
@@ -869,7 +869,7 @@ textarea {
   transform: translateX(0);
 }
 
-.menu-container .nav-list{
+.menu-container .nav-list {
   flex-direction: column;
 }
 
@@ -913,12 +913,6 @@ textarea {
   max-width: 328px;
 }
 
-@media screen and (max-width: 767px) {
-  .page-header .container {
-    padding: 24px 15px;
-  }
-}
-
 @media screen and (min-width: 428px) {
   .modal {
     width: 392px;
@@ -935,6 +929,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .container {
+    padding: 0 15px;
     width: 768px;
   }
 
