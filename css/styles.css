@@ -122,19 +122,21 @@ textarea {
   stroke: var(--active-control-color);
 }
 
-.nav-list,
-.contacts-list {
-  display: flex;
-  gap: 40px;
-}
-
 .navigation,
 .contacts {
   display: none;
 }
 
-.navigation {
-  flex-grow: 1;
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
 }
 
 .nav-list-item-link {
@@ -165,8 +167,10 @@ textarea {
 .contacts-list-item-link {
   display: block;
   color: var(--secondary-color);
+  font-size: 12px;
+  letter-spacing: var(--double-letter-spacing);
+  line-height: 1.167;
   font-style: normal;
-  padding: 24px 0;
   transition: color var(--primary-transition);
 }
 
@@ -891,5 +895,21 @@ textarea {
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
+  }
+
+  .navigation {
+    flex-grow: 1;
+  }
+
+  .contacts-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .contacts-list-item-link {
+    padding: 24px 0;
+    font-size: var(--standard-font-size);
+    letter-spacing: var(--standard-letter-spacing);
+    line-height: var(--standard-line-height);
   }
 }
