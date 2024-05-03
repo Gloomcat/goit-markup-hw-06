@@ -1,2 +1,1 @@
-# goit-markup-hw-06
- Homework for module 6 of HTML and CSS Fundamentals for User Interface
+GitHub Pages: https://gloomcat.github.io/goit-markup-hw-06/
