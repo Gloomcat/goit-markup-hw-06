@@ -769,6 +769,7 @@ textarea {
 
 .input-check {
   appearance: none;
+  min-width: 17px;
   width: 100%;
   height: 100%;
   border: 1px solid var(--primary-modal-color);
