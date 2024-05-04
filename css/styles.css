@@ -188,7 +188,7 @@ textarea {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/hero-bg.jpg);
+    url(../images/index/hero/hero-bg.jpg);
   background-position: 50% 0;
   background-repeat: no-repeat;
   color: var(--primary-background-color);
@@ -871,10 +871,7 @@ textarea {
 
 .menu-container .nav-list {
   flex-direction: column;
-}
-
-.menu-container .nav-list {
-  margin-bottom: 284px;
+  flex-grow: 1;
 }
 
 .menu-container .nav-list-item-link,
