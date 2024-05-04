@@ -187,9 +187,9 @@ textarea {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/index/hero/hero-bg.jpg);
-  background-position: 50% 0;
-  background-repeat: no-repeat;
+    url(../images/index/hero/hero-bg-mobile.jpg);
+  background-position: center;
+  background-size: cover;
   color: var(--primary-background-color);
   padding: 112px 0;
   max-width: 1440px;
@@ -914,13 +914,23 @@ textarea {
   max-width: 328px;
 }
 
-@media screen and (min-width: 428px) {
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/index/hero/hero-bg-mobile@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 428px) {
   .modal {
     width: 392px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .container {
     padding: 0 15px;
     width: 768px;
@@ -940,6 +950,24 @@ textarea {
     line-height: 1.071;
     max-width: 496px;
     margin-bottom: 48px;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/index/hero/hero-bg-tablet.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/index/hero/hero-bg-tablet@2x.jpg);
+    }
   }
 
   .content-list {
@@ -1020,7 +1048,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .container {
     width: 1158px;
   }
@@ -1043,6 +1071,24 @@ textarea {
 
   .hero {
     padding: 188px 0;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/index/hero/hero-bg-desktop.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/index/hero/hero-bg-desktop@2x.jpg);
+    }
   }
 
   .advantages,
