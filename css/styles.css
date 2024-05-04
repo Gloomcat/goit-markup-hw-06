@@ -1003,6 +1003,10 @@ textarea {
     padding: 64px 0 96px 0;
   }
 
+  .portfolio-content .content-list {
+    justify-content: flex-start;
+  }
+
   .controls-list {
     justify-content: center;
     margin: 0 0 64px 0;
